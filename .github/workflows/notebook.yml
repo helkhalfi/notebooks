@@ -24,4 +24,10 @@ jobs:
       run: |
         jupyter nbconvert Untitled.ipynb --to python
         cat Untitled.py
+    - name: commit new file
+      run: |
+        git add Untitled.py
+        git commit -m "Add generated file"
+        git push
+
 
