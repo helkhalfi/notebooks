@@ -23,5 +23,5 @@ jobs:
     - name: convert the notebook
       run: |
         jupyter nbconvert Untitled.ipynb --to python
-	cat Untitled.py
+        cat Untitled.py
 
