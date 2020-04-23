@@ -4,8 +4,8 @@
 # In[2]:
 
 
-def this_is_it(a:floa, b:int) -> float:
-    return a+2/b
+def this_is_it(a:float, b:int) -> float:
+    return a+9/b
 
 
 # In[3]:
