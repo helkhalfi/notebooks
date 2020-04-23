@@ -1,4 +1,5 @@
-- repo: git://github.com/mantic-data/pre-commit-jupyter
-  hooks:
-  sha: master
-  - id: python-nbconvert
+repos:
+  - repo: git://github.com/mantic-data/pre-commit-jupyter
+    rev: master
+    hooks:      
+      - id: python-nbconvert
